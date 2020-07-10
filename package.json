@@ -1,0 +1,20 @@
+{
+  "name": "ngx-restangular-types",
+  "version": "1.0.0",
+  "description": "Type definitions for ngx-restangular",
+  "main": "index.ts",
+  "types": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brakebein/ngx-restangular-types.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brakebein/ngx-restangular-types/issues"
+  },
+  "homepage": "https://github.com/Brakebein/ngx-restangular-types#readme",
+  "devDependencies": {
+    "rxjs": "^6.5.5"
+  }
+}
