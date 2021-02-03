@@ -2,19 +2,33 @@
   "name": "ngx-restangular-types",
   "version": "1.0.0",
   "description": "Type definitions for ngx-restangular",
-  "main": "index.ts",
-  "types": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Brakebein/ngx-restangular-types.git"
   },
-  "author": "",
+  "author": "Brakebein",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Brakebein/ngx-restangular-types/issues"
   },
   "homepage": "https://github.com/Brakebein/ngx-restangular-types#readme",
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "main": "dist/build.js",
+  "types": "src/index.d.ts",
+  "peerDependencies": {
+    "rxjs": "^6.0.0"
+  },
+  "dependencies": {
+    "ngx-restangular": "^6.0.0"
+  },
   "devDependencies": {
-    "rxjs": "^6.5.5"
+    "@rollup/plugin-node-resolve": "^11.1.1",
+    "@rollup/plugin-typescript": "^8.1.1",
+    "rollup": "^2.38.4",
+    "rxjs": "^6.6.3",
+    "tslib": "^2.1.0",
+    "typescript": "^4.1.3"
   }
 }
