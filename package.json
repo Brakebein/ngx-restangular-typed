@@ -1,17 +1,17 @@
 {
-  "name": "ngx-restangular-types",
-  "version": "1.0.0",
+  "name": "ngx-restangular-typed",
+  "version": "1.1.0",
   "description": "Type definitions for ngx-restangular",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Brakebein/ngx-restangular-types.git"
+    "url": "git+https://github.com/Brakebein/ngx-restangular-typed.git"
   },
   "author": "Brakebein",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Brakebein/ngx-restangular-types/issues"
+    "url": "https://github.com/Brakebein/ngx-restangular-typed/issues"
   },
-  "homepage": "https://github.com/Brakebein/ngx-restangular-types#readme",
+  "homepage": "https://github.com/Brakebein/ngx-restangular-typed#readme",
   "scripts": {
     "build": "npx rollup -c"
   },
